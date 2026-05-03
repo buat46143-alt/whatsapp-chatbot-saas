@@ -1,0 +1,19 @@
+{
+  "name": "whatsapp-chatbot-backend",
+  "version": "1.0.0",
+  "description": "Serverless backend for WhatsApp Chatbot SaaS",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.7.0",
+    "@supabase/supabase-js": "^2.39.8"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240320.1",
+    "typescript": "^5.4.3",
+    "wrangler": "^3.38.0"
+  }
+}

@@ -1,0 +1,8 @@
+name = "whatsapp-chatbot-saas"
+main = "src/index.ts"
+compatibility_date = "2024-03-20"
+
+# Environment variables (Set the actual values via Cloudflare dashboard or wrangler secrets)
+[vars]
+SUPABASE_URL = "https://fsfurvuwwggttdxwrcay.supabase.co"
+# DO NOT put the real SUPABASE_SERVICE_ROLE_KEY here. Use `npx wrangler secret put SUPABASE_SERVICE_ROLE_KEY`

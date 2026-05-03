@@ -1,0 +1,24 @@
+{
+  "name": "whatsapp-vps-bridge",
+  "version": "1.0.0",
+  "description": "Baileys WhatsApp Bridge for Chatbot SaaS",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "serve": "node dist/index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.0",
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "pino": "^8.19.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "@types/qrcode-terminal": "^0.12.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  }
+}
